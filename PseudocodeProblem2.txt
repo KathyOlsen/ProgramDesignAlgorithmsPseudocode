@@ -1,0 +1,42 @@
+Problem 2 - How much water runs off roof
+
+Declare Real roof_length_feet
+Declare Real roof_width_feet
+Declare Real roof_length_inches
+Declare Real roof_width_inches
+Declare Real rainfall_inches
+Declare Real runoff_cubicinches
+Declare Real runoff_gallons
+
+Prompt user for roof_length_feet
+Prompt user for roof_width_feet
+Prompt user for rainfall_inches
+
+Get the user inputs
+
+Calculate roof_length_inches = roof_length_feet*12
+Calulate roof_width_inches = roof_width_feet*12
+
+Calculate runoff_cubicinches = roof_length_inches x roof_width_inches x rainfall_inches
+
+Calculate runoff_gallons = runoff_cubicinches/231
+
+Display runoff_gallons
+
+//Test Data
+
+//  Example 1
+//	User inputs: roof_length_feet = 50, roof_width_feet = 20, rainfall_inches = 1
+//  line 17: roof_length_inches = 50 x 12 = 600
+//	line 18: roof_width_inches = 20 * 12 = 240
+//	line 20: runoff_cubicinches = 600 x 240 x 1 = 144,000
+//	line 22: runoff_gallons = 144,000 / 231 = 623.38
+//  line 24: Display: 623.38 gallons
+
+//  Example 2
+//	User inputs: roof_length_feet = 50.5, roof_width_feet = 30, rainfall_inches = 1.5
+//  line 17: roof_length_inches = 50.5 x 12 = 606
+//	line 18: roof_width_inches = 30 * 12 = 360
+//	line 20: runoff_cubicinches = 600 x 240 x 1.5 = 327,240
+//	line 22: runoff_gallons = 327,240 / 231 = 1,416.62
+//  line 24: Display: 1,416.62 gallons

@@ -1,0 +1,16 @@
+Problem 1 - Exam Score Average
+
+Declare Integer exam_score
+Declare Integer Sum
+Declare Integer Avg
+
+for (Integer counter=0; counter<10; counter++)
+	Prompt user for exam_score
+	Get exam_score
+	Update Sum = Sum + exam_score
+	
+Get Sum
+Calculate Avg = Sum / 10
+
+Display Avg
+	
